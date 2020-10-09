@@ -1,9 +1,9 @@
 @media screen and (min-width: 300px){
     body{
-        overflow-x: hidden;
+        
     }
     .About{
-       color: black;   
+          
     }   
     .resume-link{
         text-decoration: none;
@@ -21,7 +21,7 @@
     img{
         width: 50%;
         box-shadow: 2px 2px 4px 4px rgba(9, 6, 6, 0.25);       
-        margin-left: 22%;
+        margin-left: 21%;
         margin-top: 0.8em;
         margin-bottom: 1em;
     } 
