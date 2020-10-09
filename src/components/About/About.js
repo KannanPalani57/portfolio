@@ -18,11 +18,12 @@ function About(){
             <img src ={kannan} alt = "kannan-img" />
            
             <div className="detail">
+                <div className = "detail-link">
                 <p>
-                I'm a 20-year-old BCA graduate currently studying web development and design.  
+                I'm a 21-year-old BCA graduate currently studying web development and design.  
 I love to write clean and readable code.  Apart from code, I love to read novels and play sports.
                 </p>
-            </div>
+            </div></div>
     </div>
         <div className = "skills" id = "My Skills">
             <h2>My Skills</h2>
@@ -53,7 +54,9 @@ I love to write clean and readable code.  Apart from code, I love to read novels
                 </p>
             </div>
             <div className= "project">
-                 <h4>Share Your Byte</h4>
+                
+                 <h4>ShareYourByte</h4>
+                 <div className="pro">
                  <img className ="project-image" alt = "project1" src = {ShareYourByte} />
                 
                  <p>ShareYourByte is a Blogging application built with React and Django Restframework.  
@@ -61,12 +64,15 @@ I love to write clean and readable code.  Apart from code, I love to read novels
                     users can write blog post. A normal visitors can read the user's posts.
                     This project enhanced my knowledge of integrating the apps with React and Django
                  </p>
+                 </div>
                  <a href ="https://github.com/KannanPalani57/BlogApp-With-Django-React" rel="noopener noreferrer" target = "_blank">View Source</a>
-            
+
             </div>    
 
             <div className= "project" >
+                
                  <h4>Wikipedia Search</h4>
+                 <div className="pro">
                  <img className ="project-image" alt = "project2" src = {WikipediaSearch} />
                  <p>Wikipedia Search is the project I put up with ReactJS.
                      Before I used Class based components, in this application I picked up
@@ -74,9 +80,11 @@ I love to write clean and readable code.  Apart from code, I love to read novels
                      results from Wikipedia about what we search and We can navigate to the Wikipedia 
                      content page. 
                  </p>
-                 <a href ="https://github.com/KannanPalani57/Wikipedia-Viewer-In-ReactJS" rel="noopener noreferrer" target = "_blank">View Source</a>
+               
+               </div>
+               <a href ="https://github.com/KannanPalani57/Wikipedia-Viewer-In-ReactJS" rel="noopener noreferrer" target = "_blank">View Source</a>
 
-               <p style = {{fontSize: "1.1rem"}}>Let's see what I'd before and now</p>
+               <p className = "see-repo"style = {{fontSize: "1.15rem"}}>Let's see what I'd before and now</p>
                     <a href="https://github.com/KannanPalani57?tab=repositories" rel="noopener noreferrer" target ="_blank">See all my works</a>
             </div>
             
